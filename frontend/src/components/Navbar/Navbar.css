@@ -1,0 +1,44 @@
+/* Desktop Styles */
+.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mobile-nav {
+    display: none; /* Hidden on desktop */
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .desktop-nav {
+      display: none; /* Hide desktop view on mobile */
+    }
+  
+    .mobile-nav {
+      display: block; /* Show hamburger menu on mobile */
+    }
+  
+    .hamburger-icon {
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .menu {
+      background-color: white;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 200px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+  
+    .menu .search-bar,
+    .menu .profile-info {
+      margin-bottom: 10px;
+    }
+  }
+  
