@@ -18,7 +18,7 @@ A full-stack MERN (Mysql, Express, React, Node) application for note-taking. Thi
 
 ## Technologies Used
 
-- **MongoDB**: Database for storing user data and notes.
+- **MYSQL**: Database for storing user data and notes.
 - **Express**: Web framework for Node.js to handle API requests.
 - **React**: Frontend JavaScript library for building the UI.
 - **Node.js**: Backend JavaScript runtime.
@@ -27,7 +27,7 @@ A full-stack MERN (Mysql, Express, React, Node) application for note-taking. Thi
 ## Prerequisites
 
 - Node.js (version 16 or higher)
-- MongoDB instance (can be local or use MongoDB Atlas for cloud-based DB)
+- Mysql instance (can be local or use Mysql Atlas for cloud-based DB)
 - Git
 
 ## Setup Instructions
