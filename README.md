@@ -57,19 +57,7 @@ cd your-repository
    npm install
    ```
 
-3. **Set up Environment Variables**:
-
-   Create a `.env` file in the `backend/code` directory and add the following environment variables:
-
-   ```env
-   MONGO_URI=your-mongodb-connection-string
-   ACCESS_TOKEN_SECRET=your-secret-key
-   ```
-
-   - Replace `your-mongodb-connection-string` with the connection string for your MongoDB database (you can use MongoDB Atlas if you don't have a local MongoDB instance).
-   - Replace `your-secret-key` with a secret string used for signing JWT tokens.
-
-4. **Run the Backend Server**:
+3. **Run the Backend Server**:
 
    Start the backend server with:
 
@@ -111,37 +99,3 @@ cd your-repository
 2. **Register** a new account or **Login** using the login credentials.
 3. **Create Notes**, **Edit Notes**, **Delete Notes**, and **Search Notes** using the provided UI.
 
-### Step 5: Deployment
-
-You can deploy both the backend and frontend on **Firebase**, **Heroku**, or any other cloud platform of your choice.
-
-#### Deploy Backend on Firebase Functions (Optional)
-
-1. Set up Firebase for your project by following the [Firebase setup documentation](https://firebase.google.com/docs/functions/get-started).
-2. Deploy backend functions by running:
-
-   ```bash
-   firebase deploy --only functions
-   ```
-
-#### Deploy Frontend on Firebase Hosting (Optional)
-
-1. Initialize Firebase hosting by running:
-
-   ```bash
-   firebase init hosting
-   ```
-
-2. Deploy the frontend using:
-
-   ```bash
-   firebase deploy --only hosting
-   ```
-
-## Contributing
-
-If you would like to contribute to this project, feel free to open a pull request. Please ensure that you follow the code formatting and provide a clear description of your changes.
-
-## License
-
-This project is open source
