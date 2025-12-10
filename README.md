@@ -3,7 +3,7 @@
 
 https://github.com/user-attachments/assets/c5515d2e-3b39-4b1e-a83e-aaba7c638e79
 
-A full-stack MERN (MongoDB, Express, React, Node) application for note-taking. This app allows users to create, edit, delete, and search notes, with user authentication and JWT-based login.
+A full-stack MERN (Mysql, Express, React, Node) application for note-taking. This app allows users to create, edit, delete, and search notes, with user authentication and JWT-based login.
 
 ## Folder Structure
 
